@@ -283,7 +283,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/ks01lte/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/samsung/ks01lte/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
