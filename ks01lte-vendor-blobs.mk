@@ -276,10 +276,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/ks01lte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/samsung/ks01lte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/samsung/ks01lte/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/samsung/ks01lte/proprietary/etc/clatd.conf:system/etc/clatd.conf \
+    vendor/samsung/ks01lte/proprietary/etc/flp.conf:system/etc/flp.conf \
+    vendor/samsung/ks01lte/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/samsung/ks01lte/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/samsung/ks01lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/ks01lte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/ks01lte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/ks01lte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/ks01lte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/samsung/ks01lte/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/samsung/ks01lte/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
