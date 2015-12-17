@@ -333,11 +333,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/samsung/ks01lte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
     vendor/samsung/ks01lte/proprietary/lib/libsam.so:system/lib/libsam.so \
-    vendor/samsung/ks01lte/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
+    vendor/samsung/ks01lte/proprietary/lib/libsensirion_ks01_eur.so:system/lib/libsensirion_ks01_eur.so \
     vendor/samsung/ks01lte/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
     vendor/samsung/ks01lte/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/samsung/ks01lte/proprietary/lib/libsensorhubcontext.so:system/lib/libsensorhubcontext.so \
     vendor/samsung/ks01lte/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libqcgesture.so:system/vendor/lib/libqcgesture.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libqcsyncgesture.so:system/vendor/lib/libqcsyncgesture.so \
     vendor/samsung/ks01lte/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/ks01lte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
