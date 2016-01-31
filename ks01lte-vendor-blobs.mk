@@ -276,10 +276,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/ks01lte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/samsung/ks01lte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/samsung/ks01lte/proprietary/etc/clatd.conf:system/etc/clatd.conf \
-    vendor/samsung/ks01lte/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/samsung/ks01lte/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/samsung/ks01lte/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/samsung/ks01lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/ks01lte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/ks01lte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -351,7 +347,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/ks01lte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/ks01lte/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
-    vendor/samsung/ks01lte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
     vendor/samsung/ks01lte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/ks01lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/ks01lte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+    vendor/samsung/ks01lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
