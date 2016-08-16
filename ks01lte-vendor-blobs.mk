@@ -272,6 +272,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/ks01lte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
