@@ -282,11 +282,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/ks01lte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/ks01lte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/samsung/ks01lte/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/ks01lte/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/samsung/ks01lte/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/ks01lte/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
