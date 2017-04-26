@@ -51,11 +51,26 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/samsung/ks01ltexx/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/samsung/ks01ltexx/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/bcmdhd_apsta.bin_a0:system/etc/wifi/bcmdhd_apsta.bin_a0 \
     vendor/samsung/ks01ltexx/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
     vendor/samsung/ks01ltexx/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/bcmdhd_mfg.bin_a0:system/etc/wifi/bcmdhd_mfg.bin_a0 \
     vendor/samsung/ks01ltexx/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/bcmdhd_sta.bin_a0:system/etc/wifi/bcmdhd_sta.bin_a0 \
     vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_mfg.txt_a0:system/etc/wifi/nvram_mfg.txt_a0 \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_mfg.txt_murata_a0:system/etc/wifi/nvram_mfg.txt_murata_a0 \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_mfg.txt_muratafem1:system/etc/wifi/nvram_mfg.txt_muratafem1 \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_mfg.txt_muratafem2:system/etc/wifi/nvram_mfg.txt_muratafem2 \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_mfg.txt_semco3rd:system/etc/wifi/nvram_mfg.txt_semco3rd \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_mfg.txt_semcosh:system/etc/wifi/nvram_mfg.txt_semcosh \
     vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_net.txt_a0:system/etc/wifi/nvram_net.txt_a0 \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_net.txt_murata_a0:system/etc/wifi/nvram_net.txt_murata_a0 \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_net.txt_muratafem1:system/etc/wifi/nvram_net.txt_muratafem1 \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_net.txt_muratafem2:system/etc/wifi/nvram_net.txt_muratafem2 \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_net.txt_semco3rd:system/etc/wifi/nvram_net.txt_semco3rd \
+    vendor/samsung/ks01ltexx/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh \
     vendor/samsung/ks01ltexx/proprietary/lib/C13QL_libTsAe.so:system/lib/C13QL_libTsAe.so \
     vendor/samsung/ks01ltexx/proprietary/lib/C13QL_libTsAf.so:system/lib/C13QL_libTsAf.so \
     vendor/samsung/ks01ltexx/proprietary/lib/C13QL_libTs_J_Accm.so:system/lib/C13QL_libTs_J_Accm.so \
