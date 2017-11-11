@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/ks01ltexx/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/ks01ltexx/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/samsung/ks01ltexx/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/ks01ltexx/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/ks01ltexx/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/ks01ltexx/proprietary/bin/thermal-engine:system/bin/thermal-engine \
@@ -227,12 +226,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
-    vendor/samsung/ks01ltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/ks01ltexx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libsam.so:system/lib/libsam.so \
-    vendor/samsung/ks01ltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/ks01ltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/ks01ltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libsensirion_ks01_eur.so:system/lib/libsensirion_ks01_eur.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libsensorhubcontext.so:system/lib/libsensorhubcontext.so \
