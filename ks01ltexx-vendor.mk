@@ -143,7 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/lib/D13QS_libchromatix_imx135_zslshot.so:system/lib/D13QS_libchromatix_imx135_zslshot.so \
     vendor/samsung/ks01ltexx/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/samsung/ks01ltexx/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
-    vendor/samsung/ks01ltexx/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/ks01ltexx/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
     vendor/samsung/ks01ltexx/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
@@ -214,11 +213,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/lib/libchromatix_s5k6b2yx_vt_hd.so:system/lib/libchromatix_s5k6b2yx_vt_hd.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libchromatix_s5k6b2yx_zslshot.so:system/lib/libchromatix_s5k6b2yx_zslshot.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
-    vendor/samsung/ks01ltexx/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/ks01ltexx/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/samsung/ks01ltexx/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/ks01ltexx/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
@@ -257,6 +254,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/samsung/ks01ltexx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
@@ -307,6 +305,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/samsung/ks01ltexx/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
