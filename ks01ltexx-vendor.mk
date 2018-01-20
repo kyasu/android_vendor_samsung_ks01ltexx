@@ -211,8 +211,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/lib/libchromatix_s5k6b2yx_zslshot.so:system/lib/libchromatix_s5k6b2yx_zslshot.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/ks01ltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/ks01ltexx/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/ks01ltexx/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
@@ -306,6 +304,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/samsung/ks01ltexx/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/samsung/ks01ltexx/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
