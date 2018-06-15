@@ -351,7 +351,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    vendor/samsung/ks01ltexx/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
