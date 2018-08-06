@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/ks:system/vendor/bin/ks \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/samsung/ks01ltexx/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
@@ -141,7 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/hw/camera.vendor.msm8974.so:system/vendor/lib/hw/camera.vendor.msm8974.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/hw/consumerir.msm8974.so:system/vendor/lib/hw/consumerir.msm8974.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/hw/sensorhubs.msm8974.so:system/vendor/lib/hw/sensorhubs.msm8974.so \
-    vendor/samsung/ks01ltexx/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/samsung/ks01ltexx/proprietary/vendor/lib/hw/sensors.vendor.msm8974.so:system/vendor/lib/hw/sensors.vendor.msm8974.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libTsAe.so:system/vendor/lib/libTsAe.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libTsAf.so:system/vendor/lib/libTsAf.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libTs_J_Accm.so:system/vendor/lib/libTs_J_Accm.so \
@@ -229,6 +228,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsensorhubcontext.so:system/vendor/lib/libsensorhubcontext.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsensorhubservice.so:system/vendor/lib/libsensorhubservice.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libvdis.so:system/vendor/lib/libvdis.so \
+    vendor/samsung/ks01ltexx/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/ks01ltexx/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/samsung/ks01ltexx/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/ks01ltexx/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
