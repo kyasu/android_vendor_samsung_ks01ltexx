@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/ks:system/vendor/bin/ks \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
-    vendor/samsung/ks01ltexx/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
@@ -222,13 +221,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsam.so:system/vendor/lib/libsam.so \
-    vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsensirion_ks01_eur.so:system/vendor/lib/libsensirion_ks01_eur.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsensorhub.so:system/vendor/lib/libsensorhub.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsensorhubcontext.so:system/vendor/lib/libsensorhubcontext.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsensorhubservice.so:system/vendor/lib/libsensorhubservice.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libvdis.so:system/vendor/lib/libvdis.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
+    vendor/samsung/ks01ltexx/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/samsung/ks01ltexx/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/ks01ltexx/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/samsung/ks01ltexx/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/ks01ltexx/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
@@ -330,6 +330,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqcgesture.so:system/vendor/lib/libqcgesture.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqcsyncgesture.so:system/vendor/lib/libqcsyncgesture.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
@@ -338,6 +339,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/samsung/ks01ltexx/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -347,8 +349,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
+    vendor/samsung/ks01ltexx/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/ks01ltexx/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
