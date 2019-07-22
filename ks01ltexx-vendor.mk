@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_a0:system/vendor/etc/wifi/bcmdhd_mfg.bin_a0 \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:system/vendor/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_a0:system/vendor/etc/wifi/bcmdhd_sta.bin_a0 \
+    vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/cred.conf:system/vendor/etc/wifi/cred.conf \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_a0:system/vendor/etc/wifi/nvram_mfg.txt_a0 \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_a0:system/vendor/etc/wifi/nvram_mfg.txt_murata_a0 \
@@ -61,6 +62,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_muratafem2:system/vendor/etc/wifi/nvram_mfg.txt_muratafem2 \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_semco3rd:system/vendor/etc/wifi/nvram_mfg.txt_semco3rd \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_semcosh:system/vendor/etc/wifi/nvram_mfg.txt_semcosh \
+    vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol:system/vendor/etc/wifi/nvram_mfg.txt_wisol \
+    vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/nvram_net.txt_wisol:system/vendor/etc/wifi/nvram_net.txt_wisol \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/nvram_net.txt_a0:system/vendor/etc/wifi/nvram_net.txt_a0 \
     vendor/samsung/ks01ltexx/proprietary/vendor/etc/wifi/nvram_net.txt_murata_a0:system/vendor/etc/wifi/nvram_net.txt_murata_a0 \
