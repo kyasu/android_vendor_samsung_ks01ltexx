@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/samsung/ks01ltexx/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/samsung/ks01ltexx/proprietary/vendor/bin/sensorhubservice:system/vendor/bin/sensorhubservice \
